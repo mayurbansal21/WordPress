@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.TestListener2"/>
+</listeners>
+<test name="Test">
+<parameter name="browser" value="chrome" />
+<classes>
+<class name="com.test.MyProfilePageTest">
+<methods>
+<include name="myProfilePageTestCase1" />
+<include name="myProfilePageTestCase2" />
+<include name="myProfilePageTestCase3" />
+<include name="myProfilePageTestCase4" />
+<include name="myProfilePageTestCase5" />
+<include name="myProfilePageTestCase6" />
+<include name="myProfilePageTestCase7" />
+</methods>
+</class>
+</classes>
+</test>
+</suite>
