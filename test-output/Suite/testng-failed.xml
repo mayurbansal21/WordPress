@@ -10,8 +10,7 @@
       <class name="com.test.MyProfilePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="myProfilePageTestCase2" invocation-numbers="0"/>
-          <include name="myProfilePageTestCase1" invocation-numbers="0"/>
+          <include name="myProfilePageTestCase3" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.test.MyProfilePageTest -->

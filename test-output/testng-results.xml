@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-20T07:02:50Z" name="Suite" finished-at="2021-08-20T07:06:45Z" duration-ms="235167">
+  <suite started-at="2021-08-20T09:37:21Z" name="Suite" finished-at="2021-08-20T09:37:53Z" duration-ms="31805">
     <groups>
     </groups>
-    <test started-at="2021-08-20T07:02:50Z" name="Test" finished-at="2021-08-20T07:06:45Z" duration-ms="235167">
+    <test started-at="2021-08-20T09:37:21Z" name="Test" finished-at="2021-08-20T09:37:53Z" duration-ms="31805">
       <class name="com.test.MyProfilePageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:02:50Z" name="setUp" finished-at="2021-08-20T07:02:52Z" duration-ms="2269" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@d6e7bab]" started-at="2021-08-20T09:37:22Z" name="setUp" finished-at="2021-08-20T09:37:24Z" duration-ms="2553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,59 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase1(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:02:52Z" name="myProfilePageTestCase1" description="Updating profile details including profile picture." finished-at="2021-08-20T07:03:28Z" duration-ms="35808" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase1(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:28Z" name="tearDown" finished-at="2021-08-20T07:03:34Z" duration-ms="5853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:34Z" name="setUp" finished-at="2021-08-20T07:03:35Z" duration-ms="1607" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase2(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:35Z" name="myProfilePageTestCase2" description="Updating profile details consists of special characters including profile picture." finished-at="2021-08-20T07:04:15Z" duration-ms="39193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase2(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:15Z" name="tearDown" finished-at="2021-08-20T07:04:20Z" duration-ms="5861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:20Z" name="setUp" finished-at="2021-08-20T07:04:22Z" duration-ms="1540" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase3(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:22Z" name="myProfilePageTestCase3" description="Updating restricted profile picture file extension." finished-at="2021-08-20T07:04:49Z" duration-ms="27450" status="PASS">
+        <test-method signature="myProfilePageTestCase3(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@d6e7bab]" started-at="2021-08-20T09:37:24Z" name="myProfilePageTestCase3" description="Updating restricted profile picture file extension." finished-at="2021-08-20T09:37:47Z" duration-ms="22495" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -78,114 +26,49 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.test.MyProfilePageTest.myProfilePageTestCase3(MyProfilePageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:49Z" name="tearDown" finished-at="2021-08-20T07:04:55Z" duration-ms="5851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:55Z" name="setUp" finished-at="2021-08-20T07:04:57Z" duration-ms="1421" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase4(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:57Z" name="myProfilePageTestCase4" description="Updating all field values to empty values." finished-at="2021-08-20T07:05:18Z" duration-ms="21131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase4(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:18Z" name="tearDown" finished-at="2021-08-20T07:05:24Z" duration-ms="5851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:24Z" name="setUp" finished-at="2021-08-20T07:05:25Z" duration-ms="1505" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase5(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:25Z" name="myProfilePageTestCase5" description="Adding Site url" finished-at="2021-08-20T07:05:46Z" duration-ms="21163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase5(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase5 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:46Z" name="tearDown" finished-at="2021-08-20T07:05:52Z" duration-ms="5854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:52Z" name="setUp" finished-at="2021-08-20T07:05:54Z" duration-ms="1546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase6(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:54Z" name="myProfilePageTestCase6" description="Adding site URL which already exists." finished-at="2021-08-20T07:06:14Z" duration-ms="20623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase6(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase6 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:14Z" name="tearDown" finished-at="2021-08-20T07:06:20Z" duration-ms="5806" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:20Z" name="setUp" finished-at="2021-08-20T07:06:22Z" duration-ms="1401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase7(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:22Z" name="myProfilePageTestCase7" description="Deleting site URL." finished-at="2021-08-20T07:06:37Z" duration-ms="15844" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.test.MyProfilePageTest.myProfilePageTestCase7(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myProfilePageTestCase7 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:37Z" name="tearDown" finished-at="2021-08-20T07:06:45Z" duration-ms="7297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@d6e7bab]" started-at="2021-08-20T09:37:47Z" name="tearDown" finished-at="2021-08-20T09:37:53Z" duration-ms="6065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

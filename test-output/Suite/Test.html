@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 20 12:32:50 IST 2021</td>
+<td>Started on:</td><td>Fri Aug 20 15:07:21 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>235 seconds (235167 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31805 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,48 +67,52 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase1()'><b>myProfilePageTestCase1</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Updating profile details including profile picture.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase1(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>35</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase2()'><b>myProfilePageTestCase2</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Updating profile details consists of special characters including profile picture.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase2(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>39</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
 <td title='com.test.MyProfilePageTest.myProfilePageTestCase3()'><b>myProfilePageTestCase3</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Updating restricted profile picture file extension.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase3(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>27</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase4()'><b>myProfilePageTestCase4</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Updating all field values to empty values.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase4(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>21</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase5()'><b>myProfilePageTestCase5</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Adding Site url<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase5(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>21</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase6()'><b>myProfilePageTestCase6</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Adding site URL which already exists.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase6(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>20</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
-<tr>
-<td title='com.test.MyProfilePageTest.myProfilePageTestCase7()'><b>myProfilePageTestCase7</b><br>Test class: com.test.MyProfilePageTest<br>Test method: Deleting site URL.<br>Parameters: public void com.test.MyProfilePageTest.myProfilePageTestCase7(java.lang.reflect.Method) throws com.codoid.products.exception.FilloException,java.io.IOException,java.lang.InterruptedException</td>
-<td></td>
-<td>15</td>
-<td>com.test.MyProfilePageTest@3315d2d7</td></tr>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.test.MyProfilePageTest.myProfilePageTestCase3(MyProfilePageTest.java:77)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301653294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301653294'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.test.MyProfilePageTest.myProfilePageTestCase3(MyProfilePageTest.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.MyProfilePageTest@d6e7bab</td></tr>
 </table><p>
 </body>
 </html>
