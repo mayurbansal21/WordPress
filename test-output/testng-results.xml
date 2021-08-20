@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-19T00:46:24Z" name="Suite" finished-at="2021-08-19T00:50:09Z" duration-ms="224728">
+  <suite started-at="2021-08-20T07:02:50Z" name="Suite" finished-at="2021-08-20T07:06:45Z" duration-ms="235167">
     <groups>
     </groups>
-    <test started-at="2021-08-19T00:46:24Z" name="Test" finished-at="2021-08-19T00:50:09Z" duration-ms="224728">
+    <test started-at="2021-08-20T07:02:50Z" name="Test" finished-at="2021-08-20T07:06:45Z" duration-ms="235167">
       <class name="com.test.MyProfilePageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:46:24Z" name="setUp" finished-at="2021-08-19T00:46:27Z" duration-ms="2563" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:02:50Z" name="setUp" finished-at="2021-08-20T07:02:52Z" duration-ms="2269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase1(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:46:27Z" name="myProfilePageTestCase1" description="Updating profile details including profile picture." finished-at="2021-08-19T00:47:02Z" duration-ms="35058" status="PASS">
+        <test-method signature="myProfilePageTestCase1(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:02:52Z" name="myProfilePageTestCase1" description="Updating profile details including profile picture." finished-at="2021-08-20T07:03:28Z" duration-ms="35808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:02Z" name="tearDown" finished-at="2021-08-19T00:47:08Z" duration-ms="5842" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:28Z" name="tearDown" finished-at="2021-08-20T07:03:34Z" duration-ms="5853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:08Z" name="setUp" finished-at="2021-08-19T00:47:09Z" duration-ms="1589" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:34Z" name="setUp" finished-at="2021-08-20T07:03:35Z" duration-ms="1607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase2(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:09Z" name="myProfilePageTestCase2" description="Updating profile details consists of special characters including profile picture." finished-at="2021-08-19T00:47:44Z" duration-ms="34920" status="PASS">
+        <test-method signature="myProfilePageTestCase2(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:03:35Z" name="myProfilePageTestCase2" description="Updating profile details consists of special characters including profile picture." finished-at="2021-08-20T07:04:15Z" duration-ms="39193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:44Z" name="tearDown" finished-at="2021-08-19T00:47:50Z" duration-ms="5859" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:15Z" name="tearDown" finished-at="2021-08-20T07:04:20Z" duration-ms="5861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:50Z" name="setUp" finished-at="2021-08-19T00:47:51Z" duration-ms="1575" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:20Z" name="setUp" finished-at="2021-08-20T07:04:22Z" duration-ms="1540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase3(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:47:51Z" name="myProfilePageTestCase3" description="Updating restricted profile picture file extension." finished-at="2021-08-19T00:48:18Z" duration-ms="26914" status="PASS">
+        <test-method signature="myProfilePageTestCase3(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:22Z" name="myProfilePageTestCase3" description="Updating restricted profile picture file extension." finished-at="2021-08-20T07:04:49Z" duration-ms="27450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:18Z" name="tearDown" finished-at="2021-08-19T00:48:24Z" duration-ms="5933" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:49Z" name="tearDown" finished-at="2021-08-20T07:04:55Z" duration-ms="5851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:24Z" name="setUp" finished-at="2021-08-19T00:48:26Z" duration-ms="1527" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:55Z" name="setUp" finished-at="2021-08-20T07:04:57Z" duration-ms="1421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase4(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:26Z" name="myProfilePageTestCase4" description="Updating all field values to empty values." finished-at="2021-08-19T00:48:46Z" duration-ms="19956" status="PASS">
+        <test-method signature="myProfilePageTestCase4(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:04:57Z" name="myProfilePageTestCase4" description="Updating all field values to empty values." finished-at="2021-08-20T07:05:18Z" duration-ms="21131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:46Z" name="tearDown" finished-at="2021-08-19T00:48:52Z" duration-ms="5852" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:18Z" name="tearDown" finished-at="2021-08-20T07:05:24Z" duration-ms="5851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:52Z" name="setUp" finished-at="2021-08-19T00:48:53Z" duration-ms="1627" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:24Z" name="setUp" finished-at="2021-08-20T07:05:25Z" duration-ms="1505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase5(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:48:53Z" name="myProfilePageTestCase5" description="Adding Site url" finished-at="2021-08-19T00:49:11Z" duration-ms="17851" status="PASS">
+        <test-method signature="myProfilePageTestCase5(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:25Z" name="myProfilePageTestCase5" description="Adding Site url" finished-at="2021-08-20T07:05:46Z" duration-ms="21163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,11 +133,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase5 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:11Z" name="tearDown" finished-at="2021-08-19T00:49:17Z" duration-ms="5821" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:46Z" name="tearDown" finished-at="2021-08-20T07:05:52Z" duration-ms="5854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:17Z" name="setUp" finished-at="2021-08-19T00:49:19Z" duration-ms="1573" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:52Z" name="setUp" finished-at="2021-08-20T07:05:54Z" duration-ms="1546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase6(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:19Z" name="myProfilePageTestCase6" description="Adding site URL which already exists." finished-at="2021-08-19T00:49:39Z" duration-ms="20542" status="PASS">
+        <test-method signature="myProfilePageTestCase6(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:05:54Z" name="myProfilePageTestCase6" description="Adding site URL which already exists." finished-at="2021-08-20T07:06:14Z" duration-ms="20623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,11 +159,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase6 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:39Z" name="tearDown" finished-at="2021-08-19T00:49:45Z" duration-ms="5886" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:14Z" name="tearDown" finished-at="2021-08-20T07:06:20Z" duration-ms="5806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:45Z" name="setUp" finished-at="2021-08-19T00:49:47Z" duration-ms="1524" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:20Z" name="setUp" finished-at="2021-08-20T07:06:22Z" duration-ms="1401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myProfilePageTestCase7(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:49:47Z" name="myProfilePageTestCase7" description="Deleting site URL." finished-at="2021-08-19T00:50:03Z" duration-ms="16160" status="PASS">
+        <test-method signature="myProfilePageTestCase7(java.lang.reflect.Method)[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:22Z" name="myProfilePageTestCase7" description="Deleting site URL." finished-at="2021-08-20T07:06:37Z" duration-ms="15844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,7 +185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myProfilePageTestCase7 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-19T00:50:03Z" name="tearDown" finished-at="2021-08-19T00:50:09Z" duration-ms="5837" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.MyProfilePageTest@3315d2d7]" started-at="2021-08-20T07:06:37Z" name="tearDown" finished-at="2021-08-20T07:06:45Z" duration-ms="7297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

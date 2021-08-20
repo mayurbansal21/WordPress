@@ -34,21 +34,22 @@ public class MyProfilePage {
 	private By txtBoxLastName = By.id("last_name");
 	private By txtBoxPublicDisplayName = By.id("display_name");
 	private By txtAreaAboutMe = By.id("description");
-	private By linkClickToChangePhoto = By.xpath("//span[text()='Click to change photo']");
+	//private By linkClickToChangePhoto = By.xpath("//span[text()='Click to change photo']");
+	private By linkClickToChangePhoto = By.className("edit-gravatar__label");
 	private By btnSaveProfileDetails = By.xpath("//button[text()='Save profile details']");
 	private By btnSaveProfileDetailsDisabled = By.xpath("//button[text()='Save profile details' and @disabled]");
 	private By txtSavedSuccessfullyMsg = By.xpath("//span[text()='Settings saved successfully!']");
 	private By txtProfilePicSavedMsg = By.xpath("//span[contains(text(),'successfully uploaded a new profile photo')]");
 	private By btnChangeMyPhoto = By.xpath("//button[text()='Change My Photo']");
-	private By txtErrorMsgForFileExtension = By.xpath("//span[contains(text(),'pdf files are not supported — please make sure your image is in JPG, GIF, or PNG format.')]");
-	private By chkBoxGravatar = By.xpath("//button[text()='Save profile details']/preceding::input[@id='inspector-toggle-control-0']/ancestor::span[1]");
+	private By txtErrorMsgForFileExtension = By.xpath("//span[contains(text(),'pdf files are not supported')]");
+	private By chkBoxGravatar = By.id("inspector-toggle-control-0");
 	private By btnAdd = By.xpath("//span[text()='Add']/ancestor::button[1]");
 	private By btnAddURL = By.xpath("//button[text()='Add URL']");
 	private By txtBoxURL = By.xpath("//input[@placeholder='Enter a URL']");
 	private By txtBoxDescription = By.xpath("//input[@placeholder='Enter a description']");
 	private By btnAddSite = By.xpath("//button[text()='Add Site']");
 	private By btnAddSiteDisabled = By.xpath("//button[text()='Add Site' and @disabled]");
-	private By txtAddUrlErrorMsg = By.xpath("//span[text()='That link is already in your profile links. No changes were made.']");
+	private By txtAddUrlErrorMsg = By.xpath("//span[contains(text(),'That link is already in your profile links')]");
 	
 	public static String displayName;
 	public MyProfilePage(WebDriver driver) {
@@ -92,7 +93,7 @@ public class MyProfilePage {
 				driver.findElement(txtAreaAboutMe).clear();
 				driver.findElement(txtAreaAboutMe).sendKeys(profileData.get("AboutMe"));
 				}
-				if(!(driver.findElement(chkBoxGravatar).getAttribute("class").equalsIgnoreCase(profileData.get("Gravatar"))))
+				if(!(driver.findElement(By.xpath("//input[@id='inspector-toggle-control-0']/ancestor::span[1]")).getAttribute("class").equalsIgnoreCase(profileData.get("Gravatar"))))
 				{
 					driver.findElement(chkBoxGravatar).click();
 				}
@@ -326,7 +327,7 @@ public class MyProfilePage {
 			Assert.assertEquals(driver.findElement(txtBoxLastName).getAttribute("value"),profileData.get("LastName"));
 			Assert.assertEquals(driver.findElement(txtBoxPublicDisplayName).getAttribute("value"),profileData.get("PublicDisplayName"));
 			Assert.assertEquals(driver.findElement(txtAreaAboutMe).getAttribute("value"),profileData.get("AboutMe"));
-			Assert.assertTrue(driver.findElement(chkBoxGravatar).getAttribute("class").equalsIgnoreCase(profileData.get("Gravatar")));
+			Assert.assertTrue(driver.findElement(By.xpath("//input[@id='inspector-toggle-control-0']/ancestor::span[1]")).getAttribute("class").equalsIgnoreCase(profileData.get("Gravatar")));
 			TestListener2.test.log(LogStatus.PASS, CommonMethods.getCurrentMethodName()+" "+"My Profile page details updated successfully.");
 			bFlag=true;
 			}
